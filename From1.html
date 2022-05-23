@@ -6,34 +6,70 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        input{
-            margin-top: 1em;
+        body{
+            background-image: -webkit-linear-gradient(left,#374ce5,#87b3ed)
         }
-        form{
+        div{
+            width: 500px;
+            height: 500px;
+            background-color: white;
+            margin: auto;
+            margin-top: 15px;
+            
+
+            
+        }
+       
+        label{
+            font-size: 1em;
+            margin-left: 2em;
+            margin-top: 1em;
+            color: rgb(63, 62, 62);
+        }
+        input{
             text-align: center;
+                width: 75%;
+                height: 50px;
+                margin-right: 16px;
+                margin-left: 2em;
+                margin-bottom: 20px;
+                border:2px solid #dbdbdb;
         }
         h1{
-            background-color: yellow;
             text-align: center;
+            font-size: 3em;
+            padding: 25px;
+        
+        }
+        a{
+            margin-left: 2em;
+            font-size: 1em;
+            color: #088df2;
+        }
+        button{
+            width: 80%;
+            height: 4em;
+            margin-left: 3em;
+            margin-right: 2em;
+            margin-top: 2em;
+            background-color: #088df2;
+            border: none;
+            
         }
     </style>
 </head>
 <body>
-    <h1>sign up page</h1>
-    <form>
-        <label >First name:</label>
-        <input style="margin-left: 2em;" type="text"  name="name"><br>
-        <label>Last name:</label>
-        <input  style="margin-left: 2em;" type="text" name="last_name"><br/>
-        
-        <label >Date of Birth </label>
-        <input  style="margin-left: 3em;" type="date"  name="D_O_B"><br/>
-        <label >Email : </label>
-        <input  style="margin-left: 46px;" type="email " name="email"/><br/>
-        <label>phone number:</label>
-        <input type="digit" name="phone_no."><br/>
-        <input style="margin-left: 6em;" name="submit" type="submit"/>
-        
-    </form>
+     <div>
+       
+        <form>
+            <h1>Login from</h1>
+           <label>EMAIL OR PHONE NO.</label><br/>
+           <input type="text" name="name"><br/>
+           <label > Password</label><br/>
+           <input type="password" name="password"><br/>
+           <a  href="#" >forgot password ?</a>
+        </form>
+        <button type="button" name="submigt" > Submit</button>
+     </div>
 </body>
 </html>
